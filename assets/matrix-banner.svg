@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
+  <title id="title">Rafiul Alam terminal banner</title>
+  <desc id="desc">A neon green terminal interface introducing Rafiul Alam as a software and AI developer.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030806" />
+      <stop offset="0.55" stop-color="#07110d" />
+      <stop offset="1" stop-color="#020605" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#00ff66" stroke-opacity=".1" />
+    </pattern>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 0H4" stroke="#000" stroke-opacity=".32" />
+    </pattern>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+      .mono { font-family: 'Press Start 2P', Consolas, monospace; }
+      .pulse { animation: pulse 1.4s steps(2, end) infinite; }
+      .cursor { animation: blink .8s steps(2, end) infinite; }
+      .sweep { animation: sweep 4s linear infinite; }
+      @keyframes pulse { 50% { opacity: .3; } }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes sweep { from { transform: translateY(-40px); } to { transform: translateY(310px); } }
+    </style>
+  </defs>
+
+  <rect width="960" height="280" rx="10" fill="url(#background)" />
+  <rect width="960" height="280" rx="10" fill="url(#grid)" />
+  <rect x="12" y="12" width="936" height="256" rx="5" fill="none" stroke="#00ff66" stroke-opacity=".52" />
+  <path d="M12 48H948M12 226H948" stroke="#00e5ff" stroke-opacity=".38" />
+  <path d="M30 32H140M820 32H930M30 248H140M820 248H930" stroke="#00e5ff" stroke-width="2" />
+
+  <g class="mono" font-size="8" fill="#00a84f" opacity=".82">
+    <text x="38" y="84">01001010  10010001  01100110</text>
+    <text x="38" y="104">NEURAL_LINK :: READY</text>
+    <text x="38" y="124">AGENT_MODE :: ACTIVE</text>
+    <text x="742" y="84">0x00FF66</text>
+    <text x="742" y="104">BUILD / SHIP / LEARN</text>
+    <text x="742" y="124">MODE: BUILDING</text>
+  </g>
+
+  <g filter="url(#glow)">
+    <text x="480" y="105" text-anchor="middle" class="mono" font-size="11" font-weight="700" letter-spacing="1" fill="#00e5ff">TERMINAL://USER_PROFILE</text>
+    <text x="480" y="158" text-anchor="middle" class="mono" font-size="32" font-weight="700" letter-spacing="2" fill="#00ff66">RAFIUL ALAM</text>
+    <text x="480" y="190" text-anchor="middle" class="mono" font-size="12" letter-spacing="1" fill="#c7ffe1">SOFTWARE + AI DEVELOPER</text>
+  </g>
+
+  <g class="mono" font-size="8" font-weight="700">
+    <rect x="346" y="205" width="268" height="18" fill="#00ff66" fill-opacity=".12" stroke="#00ff66" stroke-opacity=".8" />
+    <circle cx="359" cy="214" r="4" fill="#00ff66" class="pulse" />
+    <text x="374" y="218" fill="#00ff66">SYSTEM_STATUS: AVAILABLE</text>
+  </g>
+
+  <line x1="0" y1="0" x2="960" y2="0" stroke="#00ff66" stroke-opacity=".38" class="sweep" />
+  <rect width="960" height="280" rx="10" fill="url(#scanlines)" pointer-events="none" />
+  <text x="38" y="34" class="mono" font-size="9" fill="#00ff66">root@alamrafiulll:~$ ./introduce.sh</text>
+  <rect x="330" y="24" width="7" height="11" fill="#00ff66" class="cursor" />
+  <text x="762" y="34" class="mono" font-size="8" fill="#00e5ff">[ SESSION: ONLINE ]</text>
+</svg>

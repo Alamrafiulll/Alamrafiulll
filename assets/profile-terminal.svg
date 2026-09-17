@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Rafiul Alam profile terminal</title>
+  <desc id="desc">A pixel-font terminal profile listing Rafiul Alam's role, focus, technology stack, website, and availability.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07130f" />
+      <stop offset="1" stop-color="#030807" />
+    </linearGradient>
+    <pattern id="lines" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 1H8" stroke="#00ff66" stroke-opacity=".055" />
+    </pattern>
+    <filter id="glow" x="-10%" y="-15%" width="120%" height="130%">
+      <feGaussianBlur stdDeviation="1.6" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+      .pixel { font-family: 'Press Start 2P', Consolas, monospace; }
+      .blink { animation: blink .85s steps(2, end) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect x="5" y="5" width="590" height="410" rx="5" fill="url(#panel)" stroke="#00ff66" stroke-width="2" />
+  <rect x="5" y="5" width="590" height="410" rx="5" fill="url(#lines)" />
+  <rect x="5" y="5" width="590" height="38" fill="#00ff66" />
+  <text x="22" y="29" class="pixel" font-size="10" fill="#041008">WHOAMI.SH // OPERATOR_PROFILE</text>
+  <rect x="545" y="16" width="12" height="12" fill="#041008" />
+  <rect x="567" y="16" width="12" height="12" fill="#041008" />
+
+  <path d="M20 63H580M20 63V398M580 63V398M20 398H580" fill="none" stroke="#00e5ff" stroke-opacity=".82" />
+  <path d="M20 82H580" stroke="#00ff66" stroke-opacity=".32" stroke-dasharray="5 5" />
+
+  <text x="38" y="75" class="pixel" font-size="9" fill="#00e5ff">root@alamrafiulll:~$ whoami</text>
+  <text x="38" y="114" class="pixel" font-size="20" fill="#00ff66" filter="url(#glow)">RAFIUL ALAM</text>
+  <text x="38" y="141" class="pixel" font-size="10" fill="#d8fff0">SOFTWARE + AI DEVELOPER</text>
+
+  <text x="38" y="185" class="pixel" font-size="9" fill="#00e5ff">FOCUS</text>
+  <text x="38" y="207" class="pixel" font-size="9" fill="#b9f8dd">AGENTIC SYSTEMS + FULL-STACK</text>
+  <text x="38" y="224" class="pixel" font-size="9" fill="#b9f8dd">AI-ASSISTED WORKFLOWS</text>
+
+  <text x="38" y="263" class="pixel" font-size="9" fill="#00e5ff">STACK</text>
+  <text x="38" y="285" class="pixel" font-size="9" fill="#b9f8dd">TYPESCRIPT // PYTHON // NEXT.JS</text>
+  <text x="38" y="302" class="pixel" font-size="9" fill="#b9f8dd">REACT // FASTAPI // POSTGRESQL</text>
+
+  <text x="38" y="341" class="pixel" font-size="9" fill="#00e5ff">WEB</text>
+  <text x="38" y="363" class="pixel" font-size="9" fill="#00ff66">RAFIULALAM.XYZ</text>
+
+  <rect x="38" y="378" width="360" height="12" fill="#00ff66" fill-opacity=".1" stroke="#00ff66" stroke-opacity=".72" />
+  <circle cx="50" cy="384" r="3" fill="#00ff66" filter="url(#glow)" />
+  <text x="61" y="388" class="pixel" font-size="7" fill="#00ff66">OPEN TO NEW OPPORTUNITIES</text>
+  <rect x="412" y="378" width="7" height="12" fill="#00e5ff" class="blink" />
+</svg>
