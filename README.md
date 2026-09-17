@@ -30,7 +30,7 @@
   <table>
     <tr>
       <td width="40%" valign="top">
-        <img src="./assets/rafiul-ascii-portrait.gif" width="100%" alt="Animated ASCII portrait of Rafiul Alam in a terminal window" />
+        <img src="./assets/rafiul-ascii-portrait.gif?v=3" width="100%" alt="Animated ASCII portrait of Rafiul Alam in a terminal window" />
       </td>
       <td width="60%" valign="top">
         <img src="./assets/profile-terminal.svg" width="100%" alt="Pixel-font terminal profile for Rafiul Alam" />
