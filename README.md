@@ -102,12 +102,12 @@
   <img src="./assets/cyber-divider.svg" width="100%" alt="Section divider" />
 </div>
 
-## `contribution://activity-grid`
+## `contribution://snake-grid`
 
 <div align="center">
-  <img src="./assets/contribution-fireworks.svg" width="100%" alt="GitHub-inspired contribution grid with green activity squares and animated pixel bursts" />
+  <img src="./assets/contribution-snake.svg" width="100%" alt="Retro arcade snake passing through contribution grid eating commits with different color trails" />
   <br />
-  <code>[ CONTRIBUTION_ACTIVITY ] // green squares // pixel bursts // build momentum</code>
+  <code>[ ARCADE_SNAKE_PROTOCOL ] // solid cyan cyber snake // devouring green commits // shattering blocks</code>
 </div>
 
 <br />
